@@ -25,12 +25,12 @@
     <p id="description">Thanking for taking your time to help us improve our platform</p>
     <form id="survey-form">
       <fieldset>
-        <label for="name" id="name-label" >Name</label>
-        <input type="text" id="name">
+        <label for="name" id="name-label" required >Name</label>
+        <input type="text" id="name" placeholder="enter your name">
       </fieldset>
       <fieldset>
-        <label for="email" id="email-label" >Email</label>
-        <input type="text" id="email">
+        <label for="email" id="email-label" required>Email</label>
+        <input type="email" id="email" placeholder="enter email">
       </fieldset>
       <fieldset>
         <label for="age" id="number-label">Age</label>
@@ -42,7 +42,7 @@
         <input type="radio" id="gender" value="Male">Female
       </fieldset>
       <fieldset>
-        <label for="work" id="course-label">Ocupation</label>
+        <label for="work" id="dropdown">Ocupation</label>
         <select>
           <option>Student</option>
           <option>Education</option>
