@@ -21,7 +21,56 @@
     - The freeCodeCamp Team
 
     -->
-    <p>Hello World, we are software developers</p>
+    <h1 id="title">Sana and Fredrick Survey Form</h1>
+    <p id="description">Thanking for taking your time to help us improve our platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label" required >Name</label>
+        <input type="text" id="name" placeholder="enter your name">
+      </fieldset>
+      <fieldset>
+        <label for="email" id="email-label" required>Email</label>
+        <input type="email" id="email" placeholder="enter email">
+      </fieldset>
+      <fieldset>
+        <label for="age" id="number-label">Age</label>
+        <input type="number" id="number" min="18" max="35">
+      </fieldset>
+      <fieldset>
+        <label for="gender" id="gender-label">Gender</label>
+        <input type="radio" id="gender" value="Male">Male
+        <input type="radio" id="gender" value="Male">Female
+      </fieldset>
+      <fieldset>
+        <label for="work" id="dropdown">Ocupation</label>
+        <select>
+          <option>Student</option>
+          <option>Education</option>
+          <option>Information Technology</option>
+          <option>Finance</option>
+        </select>
+        <input type="checkbox" id="course" value="Computer Programing">Computer Programing
+        <input type="checkbox" id="course" value="Network Administrator">Network Administrator
+        <input type="checkbox" id="course" value="Database Administrator">Database Administrator
+        <input type="checkbox" id="course" value="Cyber Security">Cyber Security
+      </fieldset>
+      <fieldset>
+        <label for="course" id="course-label">Gender</label>
+        <input type="checkbox" id="course" value="Computer Programing">Computer Programing
+        <input type="checkbox" id="course" value="Network Administrator">Network Administrator
+        <input type="checkbox" id="course" value="Database Administrator">Database Administrator
+        <input type="checkbox" id="course" value="Cyber Security">Cyber Security
+      </fieldset>
+      <fieldset>
+        <label for="comment" id="comment-label">Other Comments</label>
+        <textarea rows="" cols=""></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="submit" id="submit" value="submit">
+      </fieldset>
+
+    </form>
+
     <script  src="js/index.js"></script>
   </body>
 </html>
